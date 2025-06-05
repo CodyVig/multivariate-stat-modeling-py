@@ -4,8 +4,8 @@ Multivariate statistical analysis on the Pima Indians Diabetes Database.  Prelim
 ## Steps to Proceed
 1. Use Box's $M$ Test to test for equality of group covariance matrices ($H_0$: covariance matrices are equal).
 2. If we reject $H_0$, use Quadratic Discriminant Analysis (QDA).  Otherwse, use Linear Discriminant Analysis (LDA).
-3. Perform Principal Component Analysis (PCA) to reduce dimensionality and score data.
-4. Perform Factor Analysis
+3. Perform Principal Component Analysis (PCA) to reduce dimensionality.
+4. Perform Factor Analysis to extract features and provide ranking.
 
 ## Sources
 - [Official R Documentation](https://search.r-project.org/CRAN/refmans/pdp/html/pima.html).
